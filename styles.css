@@ -1,0 +1,181 @@
+/* ---------- Page ---------- */
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+
+    /* Fixed repeating pattern on the page background */
+    background-color: #bfe8e3;
+    background-image: url('pattern.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+a {
+    color: #1d93ba;
+}
+
+
+/* ---------- Header: orange top bar ---------- */
+
+.top-bar {
+    background-color: #f5934a;
+    border-bottom: 5px solid #1d93ba;
+    padding: 30px 0 20px 0;
+}
+
+.top-bar-content {
+    max-width: 775px;
+    margin: 0 auto;
+}
+
+.site-name {
+    margin: 0 0 10px 0;
+    font-family: "Pacifico", cursive;
+    font-size: 48px;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+
+/* ---------- Navigation ---------- */
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 4px 18px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* ---------- Header: hero banner ---------- */
+
+.hero {
+    min-height: 480px;
+    border-bottom: 5px solid #1d93ba;
+
+    /* Hero image */
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Centers the title inside the hero */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* ---------- Main content ---------- */
+
+main {
+    padding: 50px 20px;
+}
+
+article {
+    max-width: 725px;
+    margin: 0 auto 36px auto;
+    padding: 50px;
+    background-color: #fdf9ee;
+}
+
+article h2 {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #1d93ba;
+}
+
+article h3 {
+    margin: 0 0 20px 0;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #f0d9a8;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e8553a;
+}
+
+article p {
+    margin: 0 0 20px 0;
+}
+
+
+/* ---------- Code snippets ---------- */
+
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+code {
+    padding: 2px 8px;
+    border: 1px solid #f5d9b8;
+    border-radius: 3px;
+    background-color: #fff6e6;
+    font-family: "Source Code Pro", monospace;
+    font-size: 16px;
+    color: #e8553a;
+}
+
+
+/* ---------- "That's a wrap" box ---------- */
+
+aside {
+    max-width: 725px;
+    margin: 0 auto;
+    padding: 40px 50px;
+    border-left: 8px solid #f5934a;
+    background-color: #1d93ba;
+    color: #ffffff;
+}
+
+aside h2 {
+    margin: 0 0 10px 0;
+    font-family: "Pacifico", cursive;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+aside p {
+    margin: 0;
+}
